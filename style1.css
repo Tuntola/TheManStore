@@ -40,6 +40,10 @@ nav a {
     text-align: center;
     padding: 100px 0;  
     justify-content: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 

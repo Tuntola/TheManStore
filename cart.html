@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>My Shop</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="HTML.html">Home</a></li>
+                    <li><a href="Product1.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="cart">
+        <div class="container">
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items">
+                </div>
+            <div class="cart-total">
+                <p>Subtotal: $<span id="cart-subtotal">0.00</span></p>
+                <p>Shipping: $<span id="cart-shipping">5.00</span></p>
+                <p>Total: $<span id="cart-total">5.00</span></p>
+                <button id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Facebook Page The Man Store..</p>
+        </div>
+    </footer>
+</body>
+</html>
